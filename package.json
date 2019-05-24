@@ -1,0 +1,16 @@
+{
+    "name": "gatnom",
+    "description": "theme for MONTAG Magazine",
+    "version": "2.0.0",
+    "keywords": ["ghost-theme"],
+    "engines": {
+        "ghost": ">=1.0.0"
+    },
+    "author": {
+        "name": "Kathryn Lawrence",
+        "email": "kathryn@grover.com"
+    },
+    "config": {
+        "posts_per_page": 6
+    }
+}

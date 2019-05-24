@@ -1,0 +1,19 @@
+<div class="pagination">
+    {{#if next}}
+      <div class="pagination-right">
+          <a class="newer-posts" href="{{page_url next}}">
+            Older &rarr;
+          </a>
+        </div>
+    {{/if}}
+    {{#if prev}}
+      <div class="pagination-left">
+        <a class="older-posts" href="{{page_url prev}}">
+          &larr; Newer
+        </a>
+      </div>
+    {{/if}}
+    <div class="pagination-center">
+      <div class="pages">Page {{page}} of {{pages}}</div>
+    </div>
+</div>

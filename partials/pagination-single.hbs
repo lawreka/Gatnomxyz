@@ -1,0 +1,16 @@
+<div class="pagination">
+  {{#next_post}}
+  <div class="pagination-right">
+		<a href="{{url}}">
+      {{title}} &rarr;
+    </a>
+  </div>
+  {{/next_post}}
+  {{#prev_post}}
+  <div class="pagination-left">
+		 <a href="{{url}}">
+      &larr; {{title}}
+    </a>
+  </div>
+  {{/prev_post}}
+</div>

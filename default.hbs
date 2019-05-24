@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{! Document Settings from zero }}
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    {{! Page Meta from zero}}
+    <title>{{meta_title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="{{asset "images/MONTAGissue3banner.jpg"}}" />
+	  <link rel="icon" type="image/png" sizes="32x32" href="{{asset "images/favicon.png"}}">
+    {{! Styles'n'Scripts }}
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset "libs/fonts/ds-digital/ds-digital.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/gatnom.css"}}">
+    <link rel="stylesheet" type="text/css" href="{{asset "css/gatnommobile.css"}}">
+    <link rel="stylesheet" type="text/css" href="{{asset "css/gatnombigh.css"}}">
+    {{! Ghost outputs important style and meta data with this tag }}
+	  {{ghost_head}}
+    <style>
+    .pullquote{
+      font-size: 1.5em;
+      margin-left: 1em;
+      margin-bottom: 1em;
+      border-left: 2px solid #ffffff;
+      padding-left: 0.5em;
+    }
+    .embed{
+      max-width: 100%;
+      text-align: center;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+    /*Issues pages*/
+    .issuespic{
+      display: inline-block;
+      vertical-align: top;
+      width: 48%;
+      padding: 0;
+    }
+    .issues-image{
+      width: 96%;
+      height: auto;
+      padding: 2%;
+    }
+    .issuestext{
+      display: inline-block;
+      vertical-align: top;
+      width: 48%;
+      padding-top: 2%;
+    }
+    @media (max-width:992px){
+      .issuespic{
+        display: block;
+        width: 100%;
+      }
+      .issues-image{
+        width: 100%;
+        height: auto;
+        padding: 0;
+      }
+      .issuestext{
+        display: block;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+      }
+    }
+    </style>
+  </head>
+  <div id="content-wrapper">
+    {{{body}}}
+  </div>
+    {{>footer}}
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+    <script type="text/javascript" src="{{ asset "assets/js/jquery-3.3.1.slim.min.js"}}"></script>
+    <script type="text/javascript" src="{{ asset "assets/js/gatnom.js"}}"></script>
+</html>

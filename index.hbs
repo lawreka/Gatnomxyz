@@ -1,0 +1,21 @@
+{{!< default}}
+{{> desktopnavigation}}
+{{> desktoplogobar}}
+{{> desktopprintissues}}
+{{> hamburgermenu}}
+<div id="homepageposts">
+  {{#foreach posts}}
+  <div class="homepage-post-wrapper" style="background-image:url({{img_url feature_image}});">
+    <div class="homepage-post-info-wrapper">
+      <div class="homepage-post-info">
+        <a href={{url}}>
+          <div class="homepage-post-title">
+            {{title}}
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  {{/foreach}}
+</div>
+{{pagination}}

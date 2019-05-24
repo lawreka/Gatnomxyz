@@ -1,0 +1,49 @@
+@media (max-width:700px){
+
+  /*Pagination */
+  .pagination-right{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-align: -webkit-center;
+    position: initial;
+    padding: 0;
+    margin-bottom: 1em;
+  }
+  .pagination-left{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-align: -webkit-center;
+    position: initial;
+    padding: 0;
+    margin-bottom: 1em;
+  }
+  /*Footer */
+  #footer{
+    text-align: center;
+    text-align: -webkit-center;
+    margin-top:8em;
+  }
+  /*Posts on post page*/
+  .postpage-post-wrapper{
+    width: 90%;
+  }
+  .post-author{
+    display: block;
+    text-align: center;
+    text-align: -webkit-center;
+    float: none;
+    margin: 0.5em;
+  }
+  .post-date{
+    display: block;
+    text-align: center;
+    text-align: -webkit-center;
+    float: none;
+    margin: 0.5em;
+  }
+  .post-title{
+    margin-top: 1em;
+  }
+/*
