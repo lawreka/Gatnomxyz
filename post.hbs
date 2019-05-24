@@ -4,28 +4,11 @@
   <div class="postpage-post-wrapper">
     <div class="post-info-wrapper">
       <div class="post-info">
-        <div class="post-image">
-          <img src="{{img_url feature_image}}" class="postimage"/>
-        </div>
-        <div class="authordatewrap">
-          <div class="post-author">
-            {{#primary_author}}
-              <a href="{{url}}">{{name}}</a>
-            {{/primary_author}}
-          </div>
-          <div class="post-date">
-            {{date published_at format="MMMM DD, YYYY"}}
-          </div>
-        </div>
         <div class="post-title">
           {{title}}
         </div>
-        <div class="post-tags">
-          <ul style="font-size: 0.8em;"> TAGS:
-            {{#foreach tags}}
-              <li><a href="/tag/{{slug}}">{{name}}</a></li>
-            {{/foreach}}
-          </ul>
+        <div class="post-date">
+          {{date published_at format="MMMM DD, YYYY"}}
         </div>
       </div>
     </div>

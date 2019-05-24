@@ -1,18 +1,20 @@
 {{!< default}}
-{{> desktopnavigation}}
 {{> desktoplogobar}}
-{{> desktopprintissues}}
-{{> hamburgermenu}}
+{{> modal}}
 <div id="homepageposts">
   {{#foreach posts}}
-  <div class="homepage-post-wrapper" style="background-image:url({{img_url feature_image}});">
+  <div class="homepage-post-wrapper">
     <div class="homepage-post-info-wrapper">
       <div class="homepage-post-info">
-        <a href={{url}}>
-          <div class="homepage-post-title">
+          <a href={{url}} class="titlelink">
+            <div class="homepage-post-title">
             {{title}}
+            </div>
+          </a>
+          <div class="homepage-post-excerpt">
+            {{excerpt}}
           </div>
-        </a>
+        <a href={{url}} class="readmore">Read more</a>
       </div>
     </div>
   </div>
