@@ -4,6 +4,9 @@
 <div id="homepageposts">
   {{#foreach posts}}
   <div class="homepage-post-wrapper">
+    <div class="homepage-post-date">
+        {{date published_at format="MMMM DD, YYYY"}}
+    </div>
     <div class="homepage-post-info-wrapper">
       <div class="homepage-post-info">
           <a href={{url}} class="titlelink">
@@ -14,8 +17,9 @@
           <div class="homepage-post-excerpt">
             {{excerpt}}
           </div>
-        <a href={{url}} class="readmore">Read more</a>
+
       </div>
+        <a href={{url}} class="readmore">Read more</a>
     </div>
   </div>
   {{/foreach}}

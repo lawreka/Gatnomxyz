@@ -1,15 +1,17 @@
 {{!< default}}
 {{> stickylogos}}
+{{> modal}}
 {{#post}}
   <div class="postpage-post-wrapper">
+    <div class="post-date">
+      {{date published_at format="MMMM DD, YYYY"}}
+    </div>
     <div class="post-info-wrapper">
       <div class="post-info">
         <div class="post-title">
           {{title}}
         </div>
-        <div class="post-date">
-          {{date published_at format="MMMM DD, YYYY"}}
-        </div>
+
       </div>
     </div>
     <div class="post-content-wrapper">

@@ -59,9 +59,7 @@ h3{
   font-size: 35px;
 }
 p{
-  font-size: 21px;
   color: #fff;
-  line-height: 1.85;
 }
     @media (max-width: 700px){
       p{
@@ -123,20 +121,18 @@ ul{
   margin-right: auto;
 }
 .desktop-logotext{
-  font-family: "courier";
   color: #fff;
 }
 #questionmark-container{
   position: absolute;
-  right: 16px;
-  top: 16px;
+  right: 24px;
+  top: 24px;
 }
 .questionmark{
   border-radius: 50%;
   border: 2px solid white;
   padding: 1px 6px;
   color: #fff;
-  font-family: "courier";
 }
 
 
@@ -168,10 +164,10 @@ ul{
 }
 #copyright{
   padding: 16px;
+  text-align: center;
 }
 .footertext{
-	color: #fff;
-  font-family: "courier";
+	color: #c8c8c8;
   font-size: 14px;
   line-height: 24px;
 }
@@ -190,12 +186,17 @@ ul{
 .homepage-post-wrapper{
   border: 1px solid #fff;
   margin: 36px;
-  padding: 36px;
 }
 .homepage-post-info-wrapper{
+  padding: 36px;
 }
 .titlelink{
   text-decoration: none;
+}
+.homepage-post-date{
+  padding: 16px;
+  font-size: 14px;
+  text-align: left;
 }
 .homepage-post-title{
   color: #fff;
@@ -205,17 +206,20 @@ ul{
 }
 .homepage-post-excerpt{
   color: #fff;
-  font-family: "courier";
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
+  line-height: 1.45;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 .readmore{
   color: #fff;
+  float:right;
 }
 /*Posts on post page*/
 .postpage-post-wrapper{
-  margin-top: 5.5em;
+  margin-top: 8em;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -225,39 +229,38 @@ ul{
 }
 
 .post-date{
-  font-family: "courier";
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left;
+  font-size: 14px;
 }
 .postpage-post-wrapper .post-title{
-  width: 100%;
-  text-align: center;
-  text-align: -webkit-center;
-  font-size: 40px;
-  display: inline-block;
-  vertical-align: top;
+  font-size: 36px;
   color: #fff;
-  line-height: 1.2em;
-  padding: 16px 0px;
-  font-family: "courier";
+  margin: 36px;
 }
 .post-content-wrapper{
   overflow-wrap: break-word;
-  max-width: 740px;
-  margin: 0 auto;
+  margin: 36px;
 }
 .post-content-wrapper a{
   color: #fff;
 }
+.content-text{
+  font-size: 21px;
+  color: #fff;
+  line-height: 1.55;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
 /*Pagination*/
 .pagination{
   height: 5em;
-  width: 100%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
   padding-bottom: 2em;
-  font-family: "courier", Trebuchet MS, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
 }
@@ -267,23 +270,18 @@ ul{
 }
 .pagination-right{
   display: inline-block;
-  width: 30%;
   text-align: right;
-  position: absolute;
-  right: 0;
+  float: right;
   padding-right: 16px;
 }
 .pagination-left{
   display: inline-block;
-  width: 30%;
   text-align: left;
-  position: absolute;
-  left: 0;
+  float: left;
   padding-left: 16px;
 }
 .pagination-center{
-  display: block;
-  width: 100%;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -335,22 +333,24 @@ ul{
   margin-top: 10vh;
 }
 .infotext{
-  font-family: "courier";
   padding: 24px;
-  font-size: 16px;
+  font-size: 21px;
+  color: #fff;
+  line-height: 1.55;
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 .infotext a{
   color: #fff;
 }
 #xmodal{
   position: absolute;
-  right: 16px;
-  top: 16px;
+  right: 24px;
+  top: 24px;
 }
 .xmodaltext{
   border-radius: 50%;
   border: 2px solid white;
   padding: 1px 6px;
   color: #fff;
-  font-family: "courier";
 }
