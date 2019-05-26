@@ -29,20 +29,6 @@
   .postpage-post-wrapper{
     width: 90%;
   }
-  .post-author{
-    display: block;
-    text-align: center;
-    text-align: -webkit-center;
-    float: none;
-    margin: 0.5em;
-  }
-  .post-date{
-    display: block;
-    text-align: center;
-    text-align: -webkit-center;
-    float: none;
-    margin: 0.5em;
-  }
   .post-title{
     margin-top: 1em;
   }

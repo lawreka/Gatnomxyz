@@ -1,3 +1,4 @@
+
 /*Required*/
 .kg-gallery-container {
     display: flex;
@@ -28,8 +29,8 @@ body{
   width: 100%;
   height: 100%;
   margin:0;
-  background-color:#030320;
-  color:#fff;
+  background-color: #fbfbfb;
+  color: #0f1020;
 	position: relative;
 }
 img{
@@ -48,7 +49,7 @@ html, body{
 input, textarea{
 }
 blockquote{
-  color:#fff;
+  color:#0f1020;
   font-style: italic;
   font-size: 1.3em;
 }
@@ -59,7 +60,7 @@ h3{
   font-size: 35px;
 }
 p{
-  color: #fff;
+  color: #0f1020;
 }
     @media (max-width: 700px){
       p{
@@ -68,7 +69,7 @@ p{
     }
 ul{
   font-size: 21px;
-  color: #fff;
+  color: #0f1020;
   line-height: 1.85;
 }
     @media (max-width: 700px){
@@ -77,66 +78,97 @@ ul{
       }
     }
 .blog-post-1.ff-section .post-content a{
-  color:#fff;
+  color: #0f1020;
 }
 .blog-post-1.ff-section .post-content a:hover{
-  color:#fff;
-}
-
-/*Desktop Navigation*/
-#navigation{
-  display: block;
-}
-    @media (max-width: 700px){
-      #navigation{
-        display: none;
-      }
-    }
-
-#desktopnavigation{
-  display: inline-block;
-}
-
-/*Desktop Logobar*/
-#desktop-logobar{
-  width: 100%;
-  margin-bottom: 80px;
-}
-@media (min-width:300px) and (max-width:700px){
-  #desktop-logobar{
-    margin-bottom:40px;
-  }
-}
-
-#desktop-logo-container{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 48px;
-}
-#desktop-logotext-container{
-  width: 70%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  color: #0f1020;
 }
 .desktop-logotext{
-  color: #fff;
+  color: #0f1020;
+  font-family: 'Amiri', serif;
 }
-#questionmark-container{
-  position: absolute;
-  right: 24px;
-  top: 24px;
+.logolinktext{
+  text-decoration: none;
+  color: #0f1020;
+}
+.stickymontagxyz{
+  font-family: "ds-digital";
+  font-size: 44px;
+}
+.montagxyz{
+  font-family: "ds-digital";
+  font-size: 66px;
+}
+@media (min-width:300px) and (max-width:700px){
+  .montagxyz{
+    font-size: 44px;
+  }
 }
 .questionmark{
-  border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid #0f1020;
   padding: 1px 6px;
-  color: #fff;
+  color: #0f1020;
+  font-family: "Courier", serif;
+  font-weight: bold;
+}
+.homepage-post-title{
+  color: #0f1020;
+  font-size: 24px;
+}
+.homepage-post-excerpt{
+  color: #0f1020;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.45;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.readmore{
+  color: #0f1020;
+  float:right;
+}
+.postpage-post-wrapper .post-title{
+  font-size: 36px;
+  color: #0f1020;
+  margin: 36px;
+}
+.post-content-wrapper a{
+  color: #0f1020;
+}
+.content-text{
+  font-size: 21px;
+  color: #0f1020;
+  line-height: 1.55;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.pagination a{
+  color: #0f1020;
+  text-decoration:none;
+}
+.infotext{
+  padding: 24px;
+  font-size: 18px;
+  color: #0f1020;
+  font-family: 'Amiri', serif;
+}
+.infotext a{
+  color: #0f1020;
+}
+.xmodaltext{
+  border: 2px solid #0f1020;
+  padding: 1px 6px;
+  color: #0f1020;
+  font-family: "courier";
+  background-color: #fbfbfb;
 }
 
-
-
+#questionmark-container{
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
 
 /*Sticky logo bar*/
 #sticky-logobar{
@@ -149,10 +181,6 @@ ul{
   position: fixed;
   top: 16px;
   left: 16px;
-}
-.stickymontagxyz{
-  font-family: "ds-digital";
-  font-size: 44px;
 }
 
 /*Footer */
@@ -173,6 +201,9 @@ ul{
 }
 
 /*Posts on home page*/
+#content-wrapper{
+  margin-top: 8em;
+}
 #homepageposts{
   width: 70%;
   margin-left: auto;
@@ -184,7 +215,7 @@ ul{
   }
 }
 .homepage-post-wrapper{
-  border: 1px solid #fff;
+  border: 1px solid #0f1020;
   margin: 36px;
 }
 .homepage-post-info-wrapper{
@@ -198,25 +229,10 @@ ul{
   font-size: 14px;
   text-align: left;
 }
-.homepage-post-title{
-  color: #fff;
-  font-size: 24px;
-}
+
 .homepage-post-info{
 }
-.homepage-post-excerpt{
-  color: #fff;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 1.45;
-  font-family: sans-serif;
-  font-weight: lighter;
-}
-.readmore{
-  color: #fff;
-  float:right;
-}
+
 /*Posts on post page*/
 .postpage-post-wrapper{
   margin-top: 8em;
@@ -224,7 +240,7 @@ ul{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
-  border: 1px solid #fff;
+  border: 1px solid #0f1020;
   padding: 24px;
 }
 
@@ -232,25 +248,13 @@ ul{
   text-align: left;
   font-size: 14px;
 }
-.postpage-post-wrapper .post-title{
-  font-size: 36px;
-  color: #fff;
-  margin: 36px;
-}
+
 .post-content-wrapper{
   overflow-wrap: break-word;
   margin: 36px;
 }
-.post-content-wrapper a{
-  color: #fff;
-}
-.content-text{
-  font-size: 21px;
-  color: #fff;
-  line-height: 1.55;
-  font-family: sans-serif;
-  font-weight: lighter;
-}
+
+
 /*Pagination*/
 .pagination{
   height: 5em;
@@ -264,10 +268,7 @@ ul{
   font-size: 16px;
   line-height: 24px;
 }
-.pagination a{
-  color: #fff;
-  text-decoration:none;
-}
+
 .pagination-right{
   display: inline-block;
   text-align: right;
@@ -301,56 +302,25 @@ ul{
   text-align: center;
   padding-top: 1em;
 }
-.montagxyz{
-  font-family: "ds-digital";
-  font-size: 66px;
-}
-@media (min-width:300px) and (max-width:700px){
-  .montagxyz{
-    font-size: 44px;
-  }
-}
-.logolinktext{
-  text-decoration: none;
-  color:#fff;
-}
 #modal{
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(3,3,32,0.5);
+  background-color: rgba(3,3,32,0.2);
   width: 100%;
   height: 100vh;
   z-index: 2;
 }
 #infotextcontainer{
   width: 80%;
-  background-color: #030320;
-  border: 1px solid white;
+  background-color: #fbfbfb;
+  border: 1px solid #0f1020;
   margin-left: auto;
   margin-right: auto;
-  height: 80vh;
   margin-top: 10vh;
-}
-.infotext{
-  padding: 24px;
-  font-size: 21px;
-  color: #fff;
-  line-height: 1.55;
-  font-family: sans-serif;
-  font-weight: lighter;
-}
-.infotext a{
-  color: #fff;
 }
 #xmodal{
   position: absolute;
   right: 24px;
   top: 24px;
-}
-.xmodaltext{
-  border-radius: 50%;
-  border: 2px solid white;
-  padding: 1px 6px;
-  color: #fff;
 }
