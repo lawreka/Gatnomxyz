@@ -27,9 +27,10 @@
   }
   /*Posts on post page*/
   .postpage-post-wrapper{
-    width: 90%;
+    width: 95%;
+    box-sizing: border-box;
   }
   .post-title{
     margin-top: 1em;
   }
-/*
+}
